@@ -38,13 +38,5 @@ module.exports = PageView.extend({
     function getRandom(min, max) {
       return min + Math.floor(Math.random() * (max - min + 1));
     }
-    // var firstNames = 'Joe Harry Larry Sue Bob Rose Angela Tom Merle Joseph Josephine'.split(' ');
-    // var lastNames = 'Smith Jewel Barker Stephenson Rossum Crockford'.split(' ');
-
-    // this.collection.create({
-    //   firstName: firstNames[getRandom(0, firstNames.length - 1)],
-    //   lastName: lastNames[getRandom(0, lastNames.length - 1)],
-    //   coolnessFactor: getRandom(0, 15)
-    // });
   }
 });

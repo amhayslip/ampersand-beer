@@ -16,7 +16,7 @@ var beers = [
 var id = 3;
 
 function get(id) {
-  return _.findWhere(beer, {id: parseInt(id + '', 10)});
+  return _.findWhere(beers, {id: parseInt(id + '', 10)});
 }
 
 exports.list = function (req, res) {
